@@ -1,0 +1,123 @@
+/*
+------------------------------
+	Impromptu's
+------------------------------
+*/
+.jqi .errorBlock{background-color:#FFC6A5;border:solid 1px red;color:red;font-weight:700;padding:5px 10px;}
+.jqi .field{margin:4px 0;}
+.jqi .field label{clear:left;display:block;float:left;font-weight:700;width:80px;}
+.jqi .field input{border:solid 1px #777;width:100px;}
+.jqifade{background-color:#aaa;position:absolute;}
+div.jqi{-moz-border-radius:10px;-webkit-border-radius:10px;background-color:#fff;border:solid 1px #eee;border-radius:10px;font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:11px;padding:7px;position:absolute;text-align:left;width:400px;}
+div.jqi .jqicontainer{font-weight:700;}
+div.jqi .jqiclose{color:#bbb;cursor:default;font-weight:700;position:absolute;right:-2px;top:4px;width:18px;}
+div.jqi .jqimessage{color:#444;line-height:20px;padding:10px;}
+div.jqi .jqibuttons{background-color:#f4f4f4;border:solid 1px #eee;padding:5px 0;text-align:right;}
+div.jqi button{background-color:#2F6073;border:solid 1px #f4f4f4;color:#fff;font-size:12px;font-weight:700;margin:0 10px;padding:3px 10px;}
+div.jqi button:hover{background-color:#728A8C;}
+div.jqi button.jqidefaultbutton,.jqiwarning .jqi .jqibuttons{background-color:#BF5E26;}
+
+/*
+------------------------------
+	impromptu
+------------------------------
+*/
+.impromptuwarning .impromptu{background-color:#aaa;}
+.impromptufade{background-color:#fff;position:absolute;}
+div.impromptu{background-color:#ccc;padding:10px;position:absolute;text-align:left;width:300px;}
+div.impromptu .impromptuclose{color:#213e80;cursor:pointer;float:right;margin:-35px -10px 0 0;}
+div.impromptu .impromptucontainer{background-color:#213e80;color:#fff;font-weight:700;padding:5px;}
+div.impromptu .impromptumessage{background-color:#415ea0;padding:10px;}
+div.impromptu .impromptubuttons{padding:5px 0 0;text-align:center;}
+div.impromptu button{margin:0 10px;padding:3px 10px;}
+
+/*
+------------------------------
+	columns ex
+------------------------------
+*/
+.colsJqifadewarning .colsJqi{background-color:#b0be96;}
+.colsJqifade{background-color:#fff;position:absolute;}
+div.colsJqi{background-color:#d0dEb6;padding:10px;position:absolute;text-align:left;width:400px;}
+div.colsJqi .colsJqiclose{color:#bbb;cursor:pointer;float:right;margin:-35px -10px 0 0;}
+div.colsJqi .colsJqicontainer{background-color:#e0eEc6;color:#fff;font-weight:700;height:160px;padding:5px;}
+div.colsJqi .colsJqimessage{background-color:#c0cEa6;float:left;height:140px;padding:10px;width:280px;}
+div.colsJqi .jqibuttons{padding:5px 0 0;text-align:center;}
+div.colsJqi button{background:url(../images/button_bg.jpg) top left repeat-x #fff;border:solid #777 1px;font-size:12px;margin:5px 5px 5px 10px;padding:3px 10px;width:75px;}
+div.colsJqi button:hover{border:solid #aaa 1px;}
+
+/*
+------------------------------
+	brown theme
+------------------------------
+*/
+.brownJqiwarning .brownJqi{background-color:#ccc;}
+.brownJqifade{background-color:#fff;position:absolute;}
+div.brownJqi{background-color:transparent;padding:10px;position:absolute;text-align:left;width:300px;}
+div.brownJqi .brownJqiclose{color:#777;cursor:pointer;float:right;font-size:11px;margin:-20px 0 0;}
+div.brownJqi .brownJqicontainer{background-color:transparent;border:solid 1px #5F5D5A;color:#fff;font-weight:700;position:relative;}
+div.brownJqi .brownJqimessage{background-color:#F7F6F2;border-bottom:solid 1px #C6B8AE;border-top:solid 1px #C6B8AE;position:relative;}
+div.brownJqi .brownJqimessage h3{background:url(../images/brown_theme_gradient.jpg) top left repeat-x #fff;color:#4D4A47;margin:0;padding:7px 0 7px 15px;}
+div.brownJqi .brownJqimessage p{color:#777;padding:10px;}
+div.brownJqi .brownJqimessage img.helpImg{bottom:-25px;left:10px;position:absolute;}
+div.brownJqi .brownJqibuttons{text-align:right;}
+div.brownJqi button{background:url(../images/brown_theme_gradient.jpg) top left repeat-x #fff;border:solid #777 1px;font-size:12px;margin:5px 5px 5px 10px;padding:3px 10px;}
+div.brownJqi button:hover{border:solid #aaa 1px;}
+
+/*
+*------------------------
+*   clean blue ex
+*------------------------
+*/
+.cleanbluewarning .cleanblue{ background-color: #acb4c4; }
+.cleanbluefade{ position: absolute; background-color: #aaaaaa; }
+div.cleanblue{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; position: absolute; background-color: #ffffff; width: 300px; font-size: 11px; text-align: left; border: solid 1px #213e80; }
+div.cleanblue .cleanbluecontainer{ background-color: #ffffff; border-top: solid 14px #213e80; padding: 5px; font-weight: bold; }
+div.cleanblue .cleanblueclose{ float: right; width: 18px; cursor: default; margin: -19px -12px 0 0; color: #ffffff; font-weight: bold; }
+div.cleanblue .cleanbluemessage{ padding: 10px; line-height: 20px; font-size: 11px; color: #333333; }
+div.cleanblue .cleanbluebuttons{ text-align: right; padding: 5px 0 5px 0; border: solid 1px #eeeeee; background-color: #f4f4f4; }
+div.cleanblue button{ padding: 3px 10px; margin: 0 10px; background-color: #314e90; border: solid 1px #f4f4f4; color: #ffffff; font-weight: bold; font-size: 12px; }
+div.cleanblue button:hover{ border: solid 1px #d4d4d4; }
+
+/*
+*------------------------
+*   Ext Blue Ex
+*------------------------
+*/
+.extbluewarning .extblue{ border:1px red solid; }
+.extbluefade{ position: absolute; background-color: #ffffff; }
+div.extblue{ border:1px #6289B6 solid; position: absolute; background-color: #CAD8EA; padding: 0; width: 300px; text-align: left; }
+div.extblue .extblueclose{ background-color: #CAD8EA; margin:2px -2px 0 0; cursor: pointer; color: red; text-align: right; }
+div.extblue .extbluecontainer{ background-color: #CAD8EA; padding: 0 5px 5px 5px; color: #000000; font:normal 11px Verdana; }
+div.extblue .extbluemessage{ background-color: #CAD8EA; padding: 0; margin:0 15px 15px 15px; }
+div.extblue .extbluebuttons{ text-align: center; padding: 0px 0 0 0; }
+div.extblue button{ padding: 1px 4px; margin: 0 10px; background-color:#cccccc; font-weight:normal; font-family:Verdana; font-size:10px; }
+
+/*
+*------------------------
+*   smooth Ex
+*------------------------
+*/
+.jqismoothfade{ position: absolute; background-color: #333333; }
+div.jqismooth{ width: 350px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; position: absolute; background-color: #ffffff; font-size: 11px; text-align: left; border: solid 3px #e2e8e6; -moz-border-radius: 10px; -webkit-border-radius: 10px; padding: 7px; }
+div.jqismooth .jqismoothcontainer{ font-weight: bold; }
+div.jqismooth .jqismoothclose{ position: absolute; top: 0; right: 0; width: 18px; cursor: default; text-align: center; padding: 2px 0 4px 0; color: #727876; font-weight: bold; background-color: #e2e8e6; -moz-border-radius-bottomLeft: 5px; -webkit-border-bottom-left-radius: 5px; border-left: solid 1px #e2e8e6; border-bottom: solid 1px #e2e8e6;  }
+div.jqismooth .jqismoothmessage{ padding: 10px; line-height: 20px; color: #444444; }
+div.jqismooth .jqismoothbuttons{ text-align: right; padding: 5px 0 5px 0; border: solid 1px #e2e8e6; background-color: #f2f8f6; }
+div.jqismooth button{ padding: 3px 10px; margin: 0 10px; background-color: #2F6073; border: solid 1px #f4f4f4; color: #ffffff; font-weight: bold; font-size: 12px; }
+div.jqismooth button:hover{ background-color: #728A8C; }
+div.jqismooth button.jqismoothdefaultbutton{ background-color: #BF5E26; }
+.jqismoothwarning .jqismooth .jqismoothbuttons{ background-color: #BF5E26; }
+
+div.cleanblue{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;position:absolute;background-color:#fff;width:500px;font-size:11px;text-align:left;border:solid 1px #369;}
+div.cleanblue .cleanbluecontainer{background-color:#fff;border-top:solid 14px #369;font-weight:700;padding:5px;}
+div.cleanblue button{background-color:#369;border:solid 1px #f4f4f4;color:#fff;font-weight:700;font-size:12px;margin:0 10px;padding:3px 10px;}
+div.cleanred{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;position:absolute;background-color:#fff;width:500px;font-size:11px;text-align:left;border:solid 1px red;}
+div.cleanred .cleanredcontainer{background-color:#fff;border-top:solid 14px red;font-weight:700;padding:5px;}
+div.cleanred button{background-color:red;border:solid 1px #f4f4f4;color:#fff;font-weight:700;font-size:12px;margin:0 10px;padding:3px 10px;}
+.cleanbluewarning .cleanblue,.cleanbluewarning .cleanred{background-color:#acb4c4;}
+.cleanbluefade,.cleanredfade{position:absolute;background-color:#aaa;}
+div.cleanblue .cleanblueclose,div.cleanred .cleanredclose{float:right;width:18px;cursor:default;color:#fff;font-weight:700;margin:-19px -12px 0 0;}
+div.cleanblue .cleanbluemessage,div.cleanred .cleanredmessage{line-height:20px;font-size:11px;color:#333;padding:10px;}
+div.cleanblue .cleanbluebuttons,div.cleanred .cleanredbuttons{text-align:right;border:solid 1px #eee;background-color:#f4f4f4;padding:5px 0;}
+div.cleanblue button:hover,div.cleanred button:hover{border:solid 1px #d4d4d4;}

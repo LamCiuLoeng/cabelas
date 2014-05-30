@@ -1,0 +1,40 @@
+.s_m_div{
+	background-color:#EBF6FB;
+	margin:10px;
+	border:1px #006699 solid;
+	width:600px;
+	overflow : auto;
+}
+.select_div{
+	float:left;
+	padding:10px;
+	width:230px;
+}
+.select_div ul {
+	margin:0px;
+	padding:0px;
+	width:230px;
+}
+.select_div ul li{
+	color:#006699;
+	font-size:14px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	line-height:28px;
+}
+.bt_div{
+	float:left;
+	width:100px;
+	padding-top : 200px;
+	text-align : center;
+}
+.select_div select{
+	width:230px;
+	height : 400px;
+}
+
+.case-list-one input,select{
+	width : 250px;
+}
